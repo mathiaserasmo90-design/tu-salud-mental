@@ -231,5 +231,10 @@ footer img{
   .premium-left img{
     width:280px;
   }
-
+  
+img {
+  max-width: 100%;
+  display: block;
+}
+  
 }
