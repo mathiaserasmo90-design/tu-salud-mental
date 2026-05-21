@@ -1,5 +1,2 @@
-const themeBtn = document.getElementById('theme-toggle');
-
-themeBtn.addEventListener('click', ()=>{
-  document.body.classList.toggle('dark');
-});
+// Dark mode is now permanent - no toggle needed
+document.body.classList.add('dark');
