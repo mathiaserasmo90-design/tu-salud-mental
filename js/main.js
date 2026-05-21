@@ -30,11 +30,11 @@ faqs.forEach(btn => {
 });
 const phone = document.getElementById('phone');
 
-window.addEventListener('mousemove', (e)=>{
+if (phone) {
+  window.addEventListener('mousemove', (e)=>{
+    let x = (window.innerWidth / 2 - e.pageX) / 30;
+    let y = (window.innerHeight / 2 - e.pageY) / 30;
 
-  let x = (window.innerWidth / 2 - e.pageX) / 30;
-  let y = (window.innerHeight / 2 - e.pageY) / 30;
-
-  phone.style.transform = `translate(${x}px, ${y}px)`;
-
-});
+    phone.style.transform = `translate(${x}px, ${y}px)`;
+  });
+}
