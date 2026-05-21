@@ -191,11 +191,20 @@ section{
   font-weight:700;
   cursor:pointer;
   text-align:left;
+  color:#0F172A;
 }
+
 .faq-answer{
   display:none;
   padding:20px;
   background:#f1f5f9;
+  color:#0F172A;
+  font-size:1rem;
+  line-height:1.6;
+}
+
+.faq-answer.active{
+  display:block;
 }
 
 .cta{
