@@ -6,8 +6,8 @@
 
 body{
   font-family:'Inter',sans-serif;
-  background:#F8FAFC;
-  color:#0F172A;
+  background:#0F172A;
+  color:#FFFFFF;
   overflow-x:hidden;
 }
 
@@ -16,8 +16,8 @@ body{
   --dark:#0E6E64;
   --purple:#8E7CFF;
   --light:#FFFFFF;
-  --bg:#F8FAFC;
-  --black:#0F172A;
+  --bg:#0F172A;
+  --black:#FFFFFF;
 }
 
 .navbar{
@@ -33,7 +33,7 @@ body{
 
 .glass{
   backdrop-filter:blur(16px);
-  background:rgba(255,255,255,.6);
+  background:rgba(15,23,42,.6);
   border:1px solid rgba(255,255,255,.2);
   box-shadow:0 8px 30px rgba(0,0,0,.05);
 }
@@ -54,7 +54,7 @@ nav{
 
 nav a{
   text-decoration:none;
-  color:var(--black);
+  color:#FFFFFF;
   font-weight:600;
 }
 
@@ -71,11 +71,12 @@ nav a{
   font-size:4rem;
   line-height:1.1;
   margin:20px 0;
+  color:#FFFFFF;
 }
 
 .hero-content p{
   font-size:1.2rem;
-  color:#475569;
+  color:#CBD5E1;
   max-width:600px;
 }
 .badge{
@@ -113,7 +114,8 @@ nav a{
 }
 .btn-glass{
   border:1px solid rgba(255,255,255,.2);
-  background:rgba(255,255,255,.3);
+  background:rgba(255,255,255,.1);
+  color:#FFFFFF;
 }
 
 .btn-primary:hover,
@@ -143,6 +145,7 @@ nav a{
 .testimonial{
   padding:30px;
   border-radius:25px;
+  background:rgba(30,41,59,.5);
 }
 
 section{
@@ -155,6 +158,11 @@ section{
 
 .section-title h2{
   font-size:3rem;
+  color:#FFFFFF;
+}
+
+.section-title p{
+  color:#CBD5E1;
 }
 
 .premium-section{
@@ -169,6 +177,11 @@ section{
 .premium-left img{
   width:400px;
 }
+
+.premium-right h2{
+  color:#FFFFFF;
+}
+
 .premium-right ul{
   margin:30px 0;
 }
@@ -176,6 +189,7 @@ section{
 .premium-right li{
   margin:12px 0;
   font-size:1.1rem;
+  color:#E2E8F0;
 }
 
 .faq-item{
@@ -188,21 +202,26 @@ section{
   width:100%;
   padding:20px;
   border:none;
-  background:#fff;
+  background:#1E293B;
   font-size:1rem;
   font-weight:700;
   cursor:pointer;
   text-align:left;
-  color:#0F172A;
+  color:#FFFFFF;
+}
+
+.faq-question:hover{
+  background:#334155;
 }
 
 .faq-answer{
   display:none;
   padding:20px;
-  background:#f1f5f9;
-  color:#0F172A;
+  background:#0F172A;
+  color:#E2E8F0;
   font-size:1rem;
   line-height:1.6;
+  border-top:1px solid #334155;
 }
 
 .faq-answer.active{
@@ -218,12 +237,12 @@ section{
 .cta h2{
   font-size:2.5rem;
   margin-bottom:15px;
-  color:#0F172A;
+  color:#FFFFFF;
 }
 
 .cta p{
   font-size:1.1rem;
-  color:#475569;
+  color:#CBD5E1;
   margin-bottom:30px;
 }
 
@@ -231,6 +250,7 @@ footer{
   padding:60px 8%;
   text-align:center;
   margin-top:60px;
+  color:#CBD5E1;
 }
 
 footer img{
