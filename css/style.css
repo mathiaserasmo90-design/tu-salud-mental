@@ -146,7 +146,7 @@ nav a{
 }
 
 section{
-  padding:100px 8%;
+  padding:80px 8%;
 }
 
 .section-title{
@@ -162,6 +162,8 @@ section{
   align-items:center;
   justify-content:space-between;
   gap:60px;
+  padding:80px 8%;
+  margin-top:40px;
 }
 
 .premium-left img{
@@ -209,11 +211,26 @@ section{
 
 .cta{
   text-align:center;
+  padding:100px 8%;
+  margin-top:60px;
+}
+
+.cta h2{
+  font-size:2.5rem;
+  margin-bottom:15px;
+  color:#0F172A;
+}
+
+.cta p{
+  font-size:1.1rem;
+  color:#475569;
+  margin-bottom:30px;
 }
 
 footer{
   padding:60px 8%;
   text-align:center;
+  margin-top:60px;
 }
 
 footer img{
