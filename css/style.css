@@ -260,6 +260,9 @@ footer img{
   width:200px;
 }
 
+/* RESPONSIVE DESIGN - MÓVILES Y TABLETS */
+
+/* Tablets: 768px - 900px */
 @media(max-width:900px){
 
   nav{
@@ -281,9 +284,278 @@ footer img{
     width:280px;
   }
   
-img {
-  max-width: 100%;
-  display: block;
-}
+  img {
+    max-width: 100%;
+    display: block;
+  }
   
+}
+
+/* Móviles: 480px - 768px */
+@media(max-width:768px){
+
+  .navbar{
+    padding:15px 5%;
+  }
+
+  .logo-container h2{
+    display:none;
+  }
+
+  .logo-container span{
+    display:none;
+  }
+
+  .nav-buttons{
+    gap:10px;
+  }
+
+  .nav-buttons .btn-primary{
+    padding:10px 15px;
+    font-size:0.85rem;
+  }
+
+  .hero{
+    padding:80px 5% 40px 5%;
+    min-height:auto;
+    gap:20px;
+  }
+
+  .hero-content h1{
+    font-size:2rem;
+    line-height:1.2;
+  }
+
+  .hero-content p{
+    font-size:0.95rem;
+  }
+
+  .badge{
+    font-size:0.85rem;
+    padding:8px 14px;
+  }
+
+  .hero-buttons{
+    flex-direction:column;
+    gap:12px;
+  }
+
+  .hero-buttons .btn-primary,
+  .hero-buttons .btn-secondary,
+  .hero-buttons .btn-glass{
+    width:100%;
+    padding:12px 20px;
+    font-size:0.95rem;
+  }
+
+  .hero-image img{
+    width:220px;
+  }
+
+  section{
+    padding:50px 5%;
+  }
+
+  .section-title h2{
+    font-size:1.8rem;
+  }
+
+  .section-title p{
+    font-size:0.95rem;
+  }
+
+  .cards-grid{
+    grid-template-columns:1fr;
+    gap:15px;
+  }
+
+  .card,
+  .testimonial{
+    padding:20px;
+  }
+
+  .premium-section{
+    gap:20px;
+    padding:50px 5%;
+    margin-top:20px;
+  }
+
+  .premium-left img{
+    width:200px;
+  }
+
+  .premium-right h2{
+    font-size:1.6rem;
+  }
+
+  .premium-right li{
+    font-size:0.95rem;
+    margin:10px 0;
+  }
+
+  .cta{
+    padding:60px 5%;
+    margin-top:30px;
+  }
+
+  .cta h2{
+    font-size:1.6rem;
+  }
+
+  .cta p{
+    font-size:0.95rem;
+  }
+
+  .faq-question{
+    padding:15px;
+    font-size:0.9rem;
+  }
+
+  .faq-answer{
+    padding:15px;
+    font-size:0.9rem;
+  }
+
+  footer{
+    padding:40px 5%;
+  }
+
+  footer img{
+    width:150px;
+  }
+
+}
+
+/* Móviles pequeños: menos de 480px */
+@media(max-width:480px){
+
+  .navbar{
+    padding:12px 4%;
+  }
+
+  .logo{
+    width:45px;
+  }
+
+  .nav-buttons{
+    gap:8px;
+  }
+
+  .nav-buttons .btn-primary{
+    padding:8px 12px;
+    font-size:0.75rem;
+  }
+
+  .nav-buttons button{
+    font-size:1.2rem;
+  }
+
+  .hero{
+    padding:70px 4% 30px 4%;
+  }
+
+  .hero-content h1{
+    font-size:1.5rem;
+    line-height:1.3;
+  }
+
+  .hero-content p{
+    font-size:0.85rem;
+  }
+
+  .badge{
+    font-size:0.75rem;
+    padding:6px 12px;
+  }
+
+  .hero-buttons{
+    gap:10px;
+  }
+
+  .hero-buttons .btn-primary,
+  .hero-buttons .btn-secondary,
+  .hero-buttons .btn-glass{
+    padding:10px 16px;
+    font-size:0.85rem;
+    border-radius:10px;
+  }
+
+  .hero-image img{
+    width:180px;
+  }
+
+  section{
+    padding:40px 4%;
+  }
+
+  .section-title h2{
+    font-size:1.5rem;
+  }
+
+  .section-title p{
+    font-size:0.85rem;
+  }
+
+  .premium-section{
+    gap:15px;
+    padding:40px 4%;
+  }
+
+  .premium-left img{
+    width:160px;
+  }
+
+  .premium-right h2{
+    font-size:1.4rem;
+  }
+
+  .premium-right li{
+    font-size:0.85rem;
+    margin:8px 0;
+  }
+
+  .premium-right .btn-primary{
+    width:100%;
+    padding:10px 16px;
+    font-size:0.85rem;
+  }
+
+  .cta{
+    padding:50px 4%;
+  }
+
+  .cta h2{
+    font-size:1.4rem;
+    margin-bottom:10px;
+  }
+
+  .cta p{
+    font-size:0.85rem;
+    margin-bottom:20px;
+  }
+
+  .cta .btn-primary{
+    width:100%;
+    padding:10px 16px;
+    font-size:0.85rem;
+  }
+
+  .faq-question{
+    padding:12px;
+    font-size:0.85rem;
+  }
+
+  .faq-answer{
+    padding:12px;
+    font-size:0.85rem;
+  }
+
+  footer{
+    padding:30px 4%;
+  }
+
+  footer img{
+    width:120px;
+  }
+
 }
